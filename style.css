@@ -1,0 +1,23 @@
+body {
+color-scheme: calc(body);
+ background-color: gray;
+ 
+}
+
+h2 {
+    color-interpolation-filters: sRGB;
+    text-align: center
+    ;
+}
+
+p {
+
+text-align: center;
+}
+
+h6 {text-align: center;
+
+    background-color: rgb(99, 107, 105);
+    
+}
+

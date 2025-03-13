@@ -1,27 +1,41 @@
 body {
 color-scheme: calc(body);
  background-color: gray;
+ background-image: url(https://img.elo7.com.br/product/zoom/28A4557/papel-de-parede-autocolante-para-barbearia-retro-fundo-preto-papel-de-parede.jpg);
  
 }
 
 h2 {
     color-interpolation-filters: sRGB;
-    text-align: center
-    ;
+    text-align: center;
+    color: white;
 }
 
 p {
 
 text-align: center;
+font-style: oblique;
+font-size: 2vh;
+color: white;
 }
 
 h6 {text-align: center;
 
-    background-color: rgb(99, 107, 105);
     font-size: 20px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
 }
 
 
 #banner {
-    width: 100%;
+    width: 100%;    
 }

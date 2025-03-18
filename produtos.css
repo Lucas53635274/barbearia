@@ -1,0 +1,30 @@
+header {
+    background-color:white;
+}
+li{
+    color: white;
+    text-align: center;
+    text-shadow: 5cap;
+}
+ul{
+    background-color:aqua;
+}
+h1{
+    text-align: center;
+}
+nav li{
+    display: inline;
+    margin: 0 0 34px 15px;
+
+}
+.home123{
+    text-align: center;
+
+}
+nav a{
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-size:  22px;
+    text-decoration: none;
+}

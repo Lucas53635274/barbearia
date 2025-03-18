@@ -54,4 +54,14 @@ div {
       margin-left: auto;
     margin-right: auto;
 }
+a{
+    text-decoration: none;
+    color:white;
+    align-items: center;
+    
+}
+.Mensal {
+    text-align: center;
+    margin-right: 50px;
+}
 

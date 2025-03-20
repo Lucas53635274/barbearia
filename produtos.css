@@ -1,5 +1,9 @@
 header {
     background-color:white;
+    padding: 20px 0 ;
+    border: 10px;
+    margin: 20px;
+    border-style: dotted;
 }
 li{
     color: white;
@@ -7,7 +11,7 @@ li{
     text-shadow: 5cap;
 }
 ul{
-    background-color:aqua;
+    background-color:grey;
 }
 h1{
     text-align: center;
@@ -27,4 +31,15 @@ nav a{
     font-weight: bold;
     font-size:  22px;
     text-decoration: none;
+}
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtGSKcTRN5KqBpepaK8pUzKRD-K6smuD6-5zRXN_QXwcvCqeU5oi0PWCUFPlly_O8DKFA&usqp=CAU);
+
+}
+
+.caixa {
+    position: relative;
+    width: 940px; 
+    margin: 0 auto;
 }

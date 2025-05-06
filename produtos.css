@@ -1,36 +1,48 @@
 header {
-    background-color:white;
-    padding: 20px 0 ;
-    border: 10px;
-    margin: 20px;
-    border-style: dotted;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:grey;
+    padding: 30px 0 ;
+    align-items: center;
 }
+
+.caixa {
+    width: 940px;
+    margin: auto;
+}
+
 li{
     color: white;
     text-align: center;
     text-shadow: 5cap;
 }
 ul{
+    margin-top: 40px;
     background-color:grey;
 }
 h1{
     text-align: center;
 }
-nav li{
+.nav-bar li{
     display: inline;
-    margin: 0 0 34px 15px;
+
+    
 
 }
-.home123{
+.nav-bar{
     text-align: center;
 
+
 }
-nav a{
+.nav-bar a{
     text-transform: uppercase;
     color:white;
     font-weight: bold;
-    font-size:  22px;
+    font-size:  25px;
     text-decoration: none;
+    margin-left: 40px;
 }
 
 body{
@@ -38,13 +50,31 @@ body{
 
 }
 
-.caixa {
-    position: relative;
-    width: 940px; 
-    margin: 0 auto;
+.logo-nav {
+    margin-left: 80px;
+    width: 100px;
 }
 .logo {
     width: 250px;
+    
 
+}
+.produtos {
+     width: 940px;
+     margin: 0 auto;
+     padding: 50px 0;
 
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+}
+
+main {
+    background-color: gray;
+    margin-top: 50px;
 }

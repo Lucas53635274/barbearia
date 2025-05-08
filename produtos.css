@@ -78,3 +78,25 @@ main {
     background-color: gray;
     margin-top: 50px;
 }
+
+nav a:hover {
+
+    color:orange;
+    text-decoration: underline;
+    
+}
+
+.prdutos li:hover {
+
+    border-color: orange;
+}
+
+.prdutos li:active {
+
+    border-color: orange;
+}
+
+.produtos li:hover h2 {
+
+    font-size: 34px;
+}

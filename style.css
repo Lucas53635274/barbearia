@@ -24,9 +24,10 @@ h1{
     text-align: center;
 }
 body {
-color-scheme: calc(body);
- background-color: gray;
- background-image: url(https://img.elo7.com.br/product/zoom/28A4557/papel-de-parede-autocolante-para-barbearia-retro-fundo-preto-papel-de-parede.jpg);
+    color-scheme: calc(body);
+    background-color: gray;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtGSKcTRN5KqBpepaK8pUzKRD-K6smuD6-5zRXN_QXwcvCqeU5oi0PWCUFPlly_O8DKFA&usqp=CAU);
+
  
 }
 
@@ -143,4 +144,13 @@ a{
 main {
     margin: 0 auto;
     width: 940px;
+}
+
+.container  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    padding: 15px;
 }
